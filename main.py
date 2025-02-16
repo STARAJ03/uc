@@ -40,11 +40,11 @@ bot = Client("bot",
 # Get the MongoDB collection for this bot
 collection = get_collection(BOT_NAME, MONGO_URI)
 # Constants
-OWNER_IDS = [6126688051]  # Replace with the actual owner user IDs
+OWNER_IDS = [1923238241]  # Replace with the actual owner user IDs
 
 # Global variables
 log_channel_id = 8168376113
-authorized_users = [6126688051]
+authorized_users = [1923238241]
 ALLOWED_CHANNEL_IDS = []
 my_name = "**ANKIT 🏅**"
 overlay = None 
