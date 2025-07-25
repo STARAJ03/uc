@@ -17,6 +17,7 @@ RUN pip3 install yt-dlp
 RUN pip3 install cloudscraper
 
 RUN pip3 install Pillow
+RUN pip3 install beautifulsoup4
 
 
 ENV COOKIES_FILE_PATH="/app/youtube_cookies.txt"
